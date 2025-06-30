@@ -395,12 +395,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Scikit-learn Community**: For traditional ML algorithms
 - **Streamlit Team**: For the interactive dashboard framework
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/nc-traffic-ml/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/nc-traffic-ml/discussions)
-- **Email**: your.email@example.com
-
 ## 📚 References
 
 1. **Traffic Forecasting Literature**
