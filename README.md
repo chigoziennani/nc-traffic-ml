@@ -193,23 +193,20 @@ The pipeline creates 29 engineered features:
 
 ## 📊 Data Sources
 
-### Highway Segments
+### Default Data
 
-The pipeline generates synthetic data for 5 major NC highway segments:
+This pipeline uses **synthetic data** generated to mimic real-world North Carolina highway traffic patterns for demonstration and benchmarking purposes.
 
-1. **I-40 Raleigh-Durham** - Major interstate corridor
-2. **I-85 Charlotte** - High-traffic urban interstate
-3. **I-95 Fayetteville** - East coast corridor
-4. **NC-147 Durham** - State highway
-5. **US-421 Winston-Salem** - US highway
+### Real North Carolina Traffic Data Sources
 
-### Data Characteristics
+If you want to use real data, you can download it from these authoritative sources:
 
-- **Time Period**: 2010-2023 (13 years)
-- **Frequency**: Daily observations
-- **Records**: ~23,740 total records
-- **Features**: 29 engineered features
-- **Target**: AADT (Average Annual Daily Traffic)
+- **NCDOT Traffic Survey Group** - Official NC traffic counts, AADT, and station data
+- **NCDOT Traffic Volume Maps** - Downloadable traffic volume maps and data  
+- **North Carolina Open Data Portal** - Search for "traffic" for datasets, including AADT and station locations
+- **FHWA Traffic Monitoring** - Federal Highway Administration, national traffic data
+
+You can substitute your own data in the `data/raw/` directory and adjust the pipeline as needed to use real-world datasets.
 
 ## 🎯 Model Performance
 
@@ -394,11 +391,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
    - [TensorFlow LSTM Guide](https://www.tensorflow.org/guide/keras/rnn)
    - [Scikit-learn Pipeline](https://scikit-learn.org/stable/modules/compose.html)
    - [Streamlit Documentation](https://docs.streamlit.io/)
-
-3. **Data Sources**
-   - [NCDOT Traffic Data](https://www.ncdot.gov/divisions/planning/traffic-data/)
-   - [FHWA Traffic Monitoring](https://www.fhwa.dot.gov/policyinformation/travel_monitoring/)
-
----
-
-**Made with ❤️ for North Carolina Traffic Analysis**
