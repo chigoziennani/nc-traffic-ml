@@ -359,17 +359,6 @@ Top 10 most important features:
 - **Performance Metrics**: Track RMSE, MAE, and other KPIs
 - **Alert Systems**: Notify when models need retraining
 
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Make your changes** and add tests
-4. **Commit your changes**: `git commit -m 'Add amazing feature'`
-5. **Push to the branch**: `git push origin feature/amazing-feature`
-6. **Open a Pull Request**
-
 ### Development Setup
 
 ```bash
@@ -413,5 +402,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Made with ❤️ for North Carolina Traffic Analysis**
-
-*Last updated: June 2025* 
